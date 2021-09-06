@@ -1,0 +1,213 @@
+:root {
+  --primary-Red: hsl(0, 100%, 74%);
+  --primary-Green: hsl(154, 59%, 51%);
+  --accent-Blue: hsl(248, 32%, 49%);
+  --neutral-Dark-Blue: hsl(249, 10%, 26%);
+  --neutral-Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/images/bg-intro-mobile.png");
+  background-color: var(--primary-Red);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main {
+  margin: 7em 0;
+  max-width: 375px;
+}
+
+main .invitation-container h1 {
+  font-size: 2.1em;
+  line-height: 1.4em;
+  padding: 0 1em;
+  margin-bottom: 0.7em;
+}
+
+main .invitation-container p {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.75em;
+  margin-bottom: 3.5em;
+}
+
+main .cost-container {
+  background-color: var(--accent-Blue);
+  font-size: 1.1em;
+  letter-spacing: 0.04em;
+  line-height: 1.7em;
+  padding: 1.4em 4.2em;
+  border-radius: 0.7em;
+  margin-bottom: 1.5em;
+  -webkit-box-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+main .cost-container .free-period {
+  font-weight: 600;
+}
+
+main .form-container {
+  background: #fff;
+  padding: 2em;
+  border-radius: 0.7em;
+  -webkit-box-shadow: 0 7px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 7px 0 rgba(0, 0, 0, 0.16);
+}
+
+main .form-container input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: var(--neutral-Dark-Blue);
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 1em;
+  border: 1px solid var(--neutral-Grayish-Blue);
+  border-radius: 0.4em;
+  margin-bottom: 1.2em;
+}
+
+main .form-container .empty-field {
+  border: 2px solid var(--primary-Red);
+  background: url("../images/icon-error.svg") no-repeat;
+  background-position: 95% 50%;
+}
+
+main .form-container .example::-webkit-input-placeholder {
+  color: var(--primary-Red);
+}
+
+main .form-container .example:-ms-input-placeholder {
+  color: var(--primary-Red);
+}
+
+main .form-container .example::-ms-input-placeholder {
+  color: var(--primary-Red);
+}
+
+main .form-container .example::placeholder {
+  color: var(--primary-Red);
+}
+
+main .form-container #fnameText,
+main .form-container #lnameText,
+main .form-container #emailText,
+main .form-container #passText {
+  display: none;
+  color: var(--primary-Red);
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: right;
+  padding-bottom: 1em;
+  margin-top: -1em;
+}
+
+main .form-container .send-contact-info {
+  display: block;
+  background-color: var(--primary-Green);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #16bb74;
+  -webkit-box-shadow: 0 -4px #16bb74 inset;
+          box-shadow: 0 -4px #16bb74 inset;
+  cursor: pointer;
+}
+
+main .form-container .terms-and-services {
+  color: var(--neutral-Grayish-Blue);
+  font-size: 0.8em;
+  line-height: 1.9em;
+  padding: 0 0.7em;
+}
+
+main .form-container .terms-and-services .t-and-s {
+  color: var(--primary-Red);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+main .form-container .terms-and-services a {
+  text-decoration: none;
+}
+
+.attribution {
+  margin-bottom: 0.9em;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+
+@media (min-width: 90em) {
+  body {
+    background-image: url("/images/bg-intro-desktop.png");
+  }
+  main {
+    min-width: 90em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .invitation {
+    text-align: left;
+    margin-top: 3em;
+    margin-right: 2em;
+  }
+  main .invitation .invitation-container {
+    padding-right: 2em;
+  }
+  main .invitation .invitation-container h1 {
+    font-size: 3.65rem;
+    line-height: 1.2em;
+    padding: 0;
+    padding-right: 1.15em;
+    margin-bottom: 0.5em;
+  }
+  main .invitation .invitation-container p {
+    font-size: 1.2rem;
+  }
+  main .cost-and-form {
+    min-width: 48%;
+  }
+  main .cost-and-form .cost-container {
+    padding: 1em 3em;
+  }
+  main .cost-and-form .form-container input[type="text"],
+  main .cost-and-form .form-container [type="email"],
+  main .cost-and-form .form-container [type="password"] {
+    padding-left: 1.9em;
+  }
+  main .cost-and-form .form-container .send-contact-info {
+    letter-spacing: 0.02em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

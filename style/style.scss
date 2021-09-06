@@ -1,0 +1,195 @@
+:root {
+  --primary-Red: hsl(0, 100%, 74%);
+  --primary-Green: hsl(154, 59%, 51%);
+  --accent-Blue: hsl(248, 32%, 49%);
+  --neutral-Dark-Blue: hsl(249, 10%, 26%);
+  --neutral-Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/images/bg-intro-mobile.png");
+  background-color: var(--primary-Red);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+main {
+  margin: 7em 0;
+  max-width: 375px;
+
+  .invitation-container {
+    h1 {
+      font-size: 2.1em;
+      line-height: 1.4em;
+      padding: 0 1em;
+      margin-bottom: 0.7em;
+    }
+    p {
+      font-size: 1.2em;
+      font-weight: 500;
+      line-height: 1.75em;
+      margin-bottom: 3.5em;
+    }
+  }
+
+  .cost-container {
+    background-color: var(--accent-Blue);
+    font-size: 1.1em;
+    letter-spacing: 0.04em;
+    line-height: 1.7em;
+    padding: 1.4em 4.2em;
+    border-radius: 0.7em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
+
+    .free-period {
+      font-weight: 600;
+    }
+  }
+
+  .form-container {
+    background: #fff;
+    padding: 2em;
+    border-radius: 0.7em;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.16);
+
+    input {
+      width: 100%;
+      font-family: "Poppins", sans-serif;
+      color: var(--neutral-Dark-Blue);
+      font-size: 1.1em;
+      font-weight: 600;
+      padding: 1em;
+      border: 1px solid var(--neutral-Grayish-Blue);
+      border-radius: 0.4em;
+      margin-bottom: 1.2em;
+    }
+
+    .empty-field {
+      border: 2px solid var(--primary-Red);
+      background: url("../images/icon-error.svg") no-repeat;
+      background-position: 95% 50%;
+    }
+
+    .example::placeholder {
+      color: var(--primary-Red);
+    }
+
+    #fnameText,
+    #lnameText,
+    #emailText,
+    #passText {
+      display: none;
+      color: var(--primary-Red);
+      font-style: italic;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-align: right;
+      padding-bottom: 1em;
+      margin-top: -1em;
+    }
+
+    .send-contact-info {
+      display: block;
+      background-color: var(--primary-Green);
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: 500;
+      text-transform: uppercase;
+      border: 1px solid hsl(154, 79%, 41%);
+      box-shadow: 0 -4px hsl(154, 79%, 41%) inset;
+      cursor: pointer;
+    }
+
+    .terms-and-services {
+      color: var(--neutral-Grayish-Blue);
+      font-size: 0.8em;
+      line-height: 1.9em;
+      padding: 0 0.7em;
+
+      .t-and-s {
+        color: var(--primary-Red);
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.attribution {
+  margin-bottom: 0.9em;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 90em) {
+  body {
+    background-image: url("/images/bg-intro-desktop.png");
+  }
+
+  main {
+    min-width: 90em;
+    display: flex;
+    align-items: center;
+
+    .invitation {
+      text-align: left;
+      margin-top: 3em;
+      margin-right: 2em;
+      .invitation-container {
+        padding-right: 2em;
+        h1 {
+          font-size: 3.65rem;
+          line-height: 1.2em;
+          padding: 0;
+          padding-right: 1.15em;
+          margin-bottom: 0.5em;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .cost-and-form {
+      min-width: 48%;
+      .cost-container {
+        padding: 1em 3em;
+      }
+
+      .form-container {
+        input[type="text"],
+        [type="email"],
+        [type="password"] {
+          padding-left: 1.9em;
+        }
+
+        .send-contact-info {
+          letter-spacing: 0.02em;
+        }
+      }
+    }
+  }
+}
