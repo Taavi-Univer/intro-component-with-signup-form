@@ -19,7 +19,7 @@ body {
   background-color: var(--primary-Red);
   background-size: cover;
   font-family: "Poppins", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   color: #fff;
   text-align: center;
   display: -ms-grid;
@@ -33,18 +33,18 @@ body {
 
 main {
   margin: 7em 0;
-  max-width: 375px;
+  max-width: 23.4375em;
 }
 
 main .invitation-container h1 {
-  font-size: 2.1em;
+  font-size: 2.1rem;
   line-height: 1.4em;
   padding: 0 1em;
   margin-bottom: 0.7em;
 }
 
 main .invitation-container p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.75em;
   margin-bottom: 3.5em;
@@ -52,7 +52,7 @@ main .invitation-container p {
 
 main .cost-container {
   background-color: var(--accent-Blue);
-  font-size: 1.1em;
+  font-size: 1.1rem;
   letter-spacing: 0.04em;
   line-height: 1.7em;
   padding: 1.4em 4.2em;
@@ -78,7 +78,7 @@ main .form-container input {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: var(--neutral-Dark-Blue);
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 600;
   padding: 1em;
   border: 1px solid var(--neutral-Grayish-Blue);
@@ -127,7 +127,7 @@ main .form-container .send-contact-info {
   background-color: var(--primary-Green);
   font-family: "Poppins", sans-serif;
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 500;
   text-transform: uppercase;
   border: 1px solid #16bb74;
@@ -143,7 +143,7 @@ main .form-container .send-contact-info:hover {
 
 main .form-container .terms-and-services {
   color: var(--neutral-Grayish-Blue);
-  font-size: 0.8em;
+  font-size: 0.8rem;
   line-height: 1.9em;
   padding: 0 0.7em;
 }
