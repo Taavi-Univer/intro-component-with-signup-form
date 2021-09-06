@@ -15,7 +15,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("../images/bg-intro-mobile.png");
+  background-image: url("/images/bg-intro-mobile.png");
   background-color: var(--primary-Red);
   background-size: cover;
   font-family: "Poppins", sans-serif;
@@ -136,6 +136,11 @@ main .form-container .send-contact-info {
   cursor: pointer;
 }
 
+main .form-container .send-contact-info:hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
 main .form-container .terms-and-services {
   color: var(--neutral-Grayish-Blue);
   font-size: 0.8em;
@@ -166,7 +171,7 @@ main .form-container .terms-and-services a {
 
 @media (min-width: 90em) {
   body {
-    background-image: url("../images/bg-intro-desktop.png");
+    background-image: url("/images/bg-intro-desktop.png");
   }
   main {
     min-width: 90em;

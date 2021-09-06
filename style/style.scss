@@ -115,6 +115,10 @@ main {
       cursor: pointer;
     }
 
+    .send-contact-info:hover {
+      filter: brightness(1.1);
+    }
+
     .terms-and-services {
       color: var(--neutral-Grayish-Blue);
       font-size: 0.8em;
