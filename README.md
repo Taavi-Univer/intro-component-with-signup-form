@@ -53,9 +53,7 @@ Users should be able to:
 ### What I learned
 
 ```css
-.example::placeholder {
-      color: var(--primary-Red);
-}
+.example::placeholder
 ```
 ```js
 if(data[i] === email)
