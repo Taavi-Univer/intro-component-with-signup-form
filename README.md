@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 Desktop view:
-![](./images/co555_intro-component-with-signup-form_desktop.png)
+![](./design/co555_intro-component-with-signup-form_desktop.png)
 
 Desktop Active State:
 ![](./images/co555-)
