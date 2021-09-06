@@ -15,7 +15,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("../images/bg-intro-mobile.png");
+  background-image: url("/images/bg-intro-mobile.png");
   background-color: var(--primary-Red);
   background-size: cover;
   font-family: "Poppins", sans-serif;
@@ -169,12 +169,12 @@ main .form-container .terms-and-services a {
   text-decoration: none;
 }
 
-@media (min-width: 90em) {
+@media (min-width: 75em) {
   body {
-    background-image: url("../images/bg-intro-desktop.png");
+    background-image: url("/images/bg-intro-desktop.png");
   }
   main {
-    min-width: 90em;
+    min-width: 75em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -185,10 +185,9 @@ main .form-container .terms-and-services a {
   main .invitation {
     text-align: left;
     margin-top: 3em;
-    margin-right: 2em;
   }
   main .invitation .invitation-container {
-    padding-right: 2em;
+    padding-right: 0.7em;
   }
   main .invitation .invitation-container h1 {
     font-size: 3.65rem;
@@ -198,7 +197,7 @@ main .form-container .terms-and-services a {
     margin-bottom: 0.5em;
   }
   main .invitation .invitation-container p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   main .cost-and-form {
     min-width: 48%;
