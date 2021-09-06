@@ -58,15 +58,7 @@ Users should be able to:
 }
 ```
 ```js
-function control() {
-  for (let i = 0; i < data.length; i++) {
-    if (data[i] === email) {
-      emailControl(data[i]);
-    } else {
-      change(data[i]);
-    }
-  }
-}
+if (data[i] === email) {
 ```
 ```js
 form.addEventListener("submit", function (event) {
