@@ -14,7 +14,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("/images/bg-intro-mobile.png");
+  background-image: url("../images/bg-intro-mobile.png");
   background-color: var(--primary-Red);
   background-size: cover;
   font-family: "Poppins", sans-serif;
@@ -150,7 +150,7 @@ main {
 
 @media (min-width: 75em) {
   body {
-    background-image: url("/images/bg-intro-desktop.png");
+    background-image: url("../images/bg-intro-desktop.png");
   }
 
   main {
