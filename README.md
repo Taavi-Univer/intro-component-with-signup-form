@@ -59,7 +59,9 @@ Mobile view:
 ### What I learned
 
 ```css
-.example::placeholder
+.example::placeholder {
+  color: var(--primary-Red);
+}
 ```
 ```js
 if(data[i] === email) {
