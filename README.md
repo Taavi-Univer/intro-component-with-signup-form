@@ -41,8 +41,8 @@ Mobile view:
 
 ### Links
 
-- Solution: [https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd](https://your-solution-url.com)
-- Live Site: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd](https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd)
+- Live Site: [https://co555.github.io/intro-component-with-signup-form/](https://co555.github.io/intro-component-with-signup-form/)
 
 
 ## My process
