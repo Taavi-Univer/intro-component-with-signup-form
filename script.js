@@ -20,7 +20,7 @@ function emailControl(el) {
 
 function noEmail(el) {
   el.classList.add("empty-field");
-  email.placeholder = "email@example/com";
+  email.placeholder = "email@example.com";
   el.classList.add("example");
   let id = el.id + "Text";
   let replacement = document.getElementById(id);
