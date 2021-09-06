@@ -29,13 +29,13 @@ Users should be able to:
 ### Screenshot
 
 Desktop view:
-![](./design/co555_intro-component-with-signup-form_desktop.png)
+![](./design/co555_intro-component-with-signup-form_Desktop.png)
 
 Desktop Active State:
-![](./design/co555_intro-component-with-signup-form_active-desktop.png)
+![](./design/co555_intro-component-with-signup-form_Active-Desktop.png)
 
 Mobile view:
-![](./design/co555_intro-component-with-signup-form_mobile.png)
+![](./design/co555_intro-component-with-signup-form_Mobile.png)
 
 
 
