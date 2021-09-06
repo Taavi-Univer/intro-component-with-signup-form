@@ -169,12 +169,12 @@ main .form-container .terms-and-services a {
   text-decoration: none;
 }
 
-@media (min-width: 75em) {
+@media (min-width: 70em) {
   body {
     background-image: url("../images/bg-intro-desktop.png");
   }
   main {
-    min-width: 75em;
+    min-width: 70em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -183,23 +183,26 @@ main .form-container .terms-and-services a {
             align-items: center;
   }
   main .invitation {
+    width: 50%;
     text-align: left;
-    margin-top: 3em;
-    margin-right: 1em;
+    margin-top: -1em;
   }
   main .invitation .invitation-container h1 {
-    font-size: 3.35rem;
+    font-size: 3.1rem;
     line-height: 1.2em;
     padding: 0;
     padding-right: 1.15em;
     margin-bottom: 0.5em;
   }
   main .invitation .invitation-container p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6em;
     margin-right: 1em;
+    margin-bottom: 0;
   }
   main .cost-and-form {
-    min-width: 45%;
+    width: 50%;
   }
   main .cost-and-form .cost-container {
     padding: 1em 3em;
