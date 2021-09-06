@@ -185,9 +185,7 @@ main .form-container .terms-and-services a {
   main .invitation {
     text-align: left;
     margin-top: 3em;
-  }
-  main .invitation .invitation-container {
-    padding-right: 0.7em;
+    margin-right: 1em;
   }
   main .invitation .invitation-container h1 {
     font-size: 3.35rem;
@@ -198,9 +196,10 @@ main .form-container .terms-and-services a {
   }
   main .invitation .invitation-container p {
     font-size: 1.1rem;
+    margin-right: 1em;
   }
   main .cost-and-form {
-    min-width: 48%;
+    min-width: 45%;
   }
   main .cost-and-form .cost-container {
     padding: 1em 3em;

@@ -161,8 +161,9 @@ main {
     .invitation {
       text-align: left;
       margin-top: 3em;
+      margin-right: 1em;
       .invitation-container {
-        padding-right: 0.7em;
+        // padding-right: 0.7em;
         h1 {
           font-size: 3.35rem;
           line-height: 1.2em;
@@ -172,12 +173,14 @@ main {
         }
         p {
           font-size: 1.1rem;
+          margin-right: 1em;
         }
       }
     }
 
     .cost-and-form {
-      min-width: 48%;
+      min-width: 45%;
+      // min-width: 48%;
       .cost-container {
         padding: 1em 3em;
       }
