@@ -41,7 +41,7 @@ Mobile view:
 
 ### Links
 
-- Solution: [Add solution URL here](https://your-solution-url.com)
+- Solution: [https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd](https://your-solution-url.com)
 - Live Site: [Add live site URL here](https://your-live-site-url.com)
 
 
