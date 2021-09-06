@@ -11,8 +11,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -68,8 +66,8 @@ form.addEventListener("submit", function (event) {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@co555](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
