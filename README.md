@@ -58,7 +58,7 @@ Users should be able to:
 }
 ```
 ```js
-if (data[i] === email) {
+if(data[i] === email)
 ```
 ```js
 form.addEventListener("submit", function (event) {
