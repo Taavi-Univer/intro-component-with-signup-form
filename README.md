@@ -49,8 +49,7 @@ Mobile view:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
 - SCSS
 - Flexbox
 - CSS Grid
@@ -78,5 +77,5 @@ form.addEventListener("submit", function (event) {
 
 ## Acknowledgments
 
-I got some inspiration from <link>Neethu Sasidharan Nair solution from Frontend Mentor.
+I got some inspiration from Neethu Sasidharan Nair solution from Frontend Mentor.
 
