@@ -73,7 +73,7 @@ form.addEventListener("submit", function (event) {
 
 ## Author
 
-- Github - [Add your name here](https://www.your-site.com)
+- Github - [co555](https://github.com/co555)
 - Frontend Mentor - [co555](https://www.frontendmentor.io/profile/co555)
 
 ## Acknowledgments
