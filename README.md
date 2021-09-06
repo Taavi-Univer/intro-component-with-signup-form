@@ -62,7 +62,9 @@ Mobile view:
 .example::placeholder
 ```
 ```js
-if(data[i] === email)
+if(data[i] === email) {
+  emailControl(data[i]);
+}
 ```
 ```js
 form.addEventListener("submit", function (event) {
