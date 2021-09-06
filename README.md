@@ -28,7 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop view:
+![](./images/co555-)
+
+Desktop Active State:
+![](./images/co555-)
+
+Mobile view:
+![](./images/co555-)
 
 
 
