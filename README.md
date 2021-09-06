@@ -67,7 +67,8 @@ function control() {
     }
   }
 }
-
+```
+```js
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   control();
