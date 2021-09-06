@@ -32,10 +32,10 @@ Desktop view:
 ![](./design/co555_intro-component-with-signup-form_desktop.png)
 
 Desktop Active State:
-![](./images/co555-)
+![](./design/co555_intro-component-with-signup-form_active-desktop.png)
 
 Mobile view:
-![](./images/co555-)
+![](./design/co555_intro-component-with-signup-form_mobile.png)
 
 
 
