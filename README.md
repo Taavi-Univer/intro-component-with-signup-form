@@ -56,30 +56,7 @@ Mobile view:
 - Javascipt
 - Mobile-first workflow
 
-### What I learned
-
-```css
-.example::placeholder {
-  color: var(--primary-Red);
-}
-```
-```js
-if(data[i] === email) {
-  emailControl(data[i]);
-}
-```
-```js
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
-});
-```
-
 ## Author
 
 - Github - [co555](https://github.com/co555)
 - Frontend Mentor - [co555](https://www.frontendmentor.io/profile/co555)
-
-## Acknowledgments
-
-I got some inspiration from Neethu Sasidharan Nair solution from Frontend Mentor.
-
