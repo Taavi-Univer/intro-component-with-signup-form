@@ -2,20 +2,6 @@
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -31,9 +17,6 @@ Users should be able to:
 Desktop view:
 ![](./design/co555_intro-component-with-signup-form_Desktop.png)
 
-Desktop Active State:
-![](./design/co555_intro-component-with-signup-form_Active-Desktop.png)
-
 Mobile view:
 ![](./design/co555_intro-component-with-signup-form_Mobile.png)
 
@@ -41,9 +24,8 @@ Mobile view:
 
 ### Links
 
-- Solution: [https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd](https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd)
-- Live Site: [https://co555.github.io/intro-component-with-signup-form/](https://co555.github.io/intro-component-with-signup-form/)
-
+- Solution: https://www.frontendmentor.io/solutions/introcomponentwithsignupform-6DEkCzmTd
+- Live Site: https://taavi-univer.github.io/intro-component-with-signup-form/
 
 ## My process
 
@@ -58,5 +40,5 @@ Mobile view:
 
 ## Author
 
-- Github - [co555](https://github.com/co555)
-- Frontend Mentor - [co555](https://www.frontendmentor.io/profile/co555)
+- Github - https://github.com/Taavi-Univer
+- Frontend Mentor - https://www.frontendmentor.io/profile/Taavi-Univer
