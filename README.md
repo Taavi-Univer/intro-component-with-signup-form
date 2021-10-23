@@ -14,13 +14,11 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop view:
-![](./design/co555_intro-component-with-signup-form_Desktop.png)
-
 Mobile view:
-![](./design/co555_intro-component-with-signup-form_Mobile.png)
+![](./design/taavi-univer.github.io_intro-component-with-signup-form_mobile.png)
 
-
+Desktop view:
+![](./design/taavi-univer.github.io_intro-component-with-signup-form_desktop.png)
 
 ### Links
 
